@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block titlebody %}
+    <title>哆啦日记</title>
+{% endblock %}
+
+{% block ref %}
+    <script src="{% static "js/hello.js" %}"></script>
+    <script src="{% static "js/dbRotate2D.js" %}"></script>
+    <link href="{% static "css/hello.css" %}" rel="stylesheet">
+
+{% endblock %}
+
+{% block bodyblock %}
+    <body>
+    您已退出
+    </body>
+{% endblock %}

@@ -1,0 +1,39 @@
+html, body{ margin:0; height:100%; }
+
+#ima {
+  width: 155px;
+  height: 155px;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#dbRo1 {position:absolute;left:0px;top:0px;}
+
+#ima img{position:absolute;width:155px;height:155px;border:0}
+
+#rightFrame{
+  float: right;
+  height: 100%;
+  width: 50%;
+  background: #e8e9c7;
+}
+
+#leftFrame{
+  height: 100%;
+  width: 50%;
+  background: #fbc3ac;
+}
+
+#centerFrame{
+  height: 100%;
+  width: 100%;
+  background: #e8e9c7;
+}
+
+#topMenu{
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
